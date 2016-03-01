@@ -1,0 +1,8 @@
+#Twitch Name
+NAME=
+#Twitch OAUTH https://twitchapps.com/tmi/
+OAUTH=
+#Default Twitch Server
+TWITCHSERVER=irc.twitch.tv
+#Game you want to log.
+GAME=
