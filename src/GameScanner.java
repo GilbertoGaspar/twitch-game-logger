@@ -91,15 +91,4 @@ public class GameScanner {
     public String[] getNames() {
         return names;
     }
-
-    /*public static void main(String[] args) {
-        GameScanner scanner = new GameScanner("APB Reloaded", 50);
-        scanner.refresh();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        scanner.printNames();
-    }*/
 }
