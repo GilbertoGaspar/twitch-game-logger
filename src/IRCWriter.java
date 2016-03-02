@@ -28,7 +28,6 @@ public class IRCWriter extends ListenerAdapter{
         new File(".\\Logs\\" + game).mkdir();
         try {
             File outFile = new File(".\\Logs\\" + game + "\\" + channel + ".txt");
-            //File outFile = new File("test.txt");
             if(!outFile.exists()) {
                 outFile.createNewFile();
             }
